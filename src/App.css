@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero-section {
+  background: url("./images/Hero section.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero_box {
+  padding: 80px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero-section h1 {
+  line-height: 75px;
 }
-
-.App-link {
-  color: #61dafb;
+.hero_text {
+  font-size: 15px;
+  padding: 0px 200px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero_box button {
+  width: 120px;
+  border-radius: 100px;
+}
+.hero_box img {
+  margin-top: 45px;
+  height: 150px;
+}
+.hero_box .image2 {
+  position: relative;
+  left: -70px;
+}
+.rate_feature {
+  background: #F9FBFD;
+}
+.rate_feature .col-lg-4 p {
+  font-size: 30px;
+  font-weight: 700;
+}
+.vr {
+  border: 3px solid #112232;
+}
+.about_section .col-lg-8 p.small {
+  font-size: 16px;
 }

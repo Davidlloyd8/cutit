@@ -1,0 +1,18 @@
+nav {
+  background-color: transparent !important;
+}
+.navbar-nav {
+    font-size: 16px !important;
+}
+.nav-item {
+    margin-right: 30px !important;
+}
+.active {
+    color: #0065fe !important;
+}
+.btnl {
+    border: 0px;
+}
+.btnt {
+    border-radius: 100px;
+}
